@@ -3,56 +3,123 @@
   
 	<head> 
 		<meta charset = "utf-8">
-		<title>Page 4</title>
+		<title>Bracelets</title>
     
     <style>
 	.title{
-		background-color:orange;
+		background-color:gold;
+	
+	}
+	.maintitletext{
+		font-size:70px;
+		text-shadow:2px 3px 5px green;
+		animation: animation1 linear 2s 0s infinite alternate;
+	}
+
+	@keyframes animation1
+	{
+		0%{color:skyblue;}
+		25%{color:green;}
+		50%{color:orange;}
+		100%{color:purple;}
 	}
 
 	.menu{
 		width:30%;
+		height:900px;
 		float:left;
 		background-color:tan;
 	}
+	.menulist{
+		font-size:30px;
+		color:tan;
+		background-color:seashell;
+	}
+	.listelement{
+		background-color:orange;
+		border-style:outset;
+		border-color:gold;
+		text-align:center;
+	}
+
 
 	.content{
 		width:70%;
 		float:right;
 		background-color:lightgray;
+		
 	}
+	.pageimage{
+		width:70%;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		
+	}
+
+
+	.pagetext1{
+		font-size:21px;
+		padding: 10px;
+	}
+
 
 	
       
     </style>
 
-		<script>
-
-		</script>
+		
     
 	</head>
 
 	<body>
 
 		<div class="title"> 
-			<h1>This is Page 4</h1>
+			<h1 class = "maintitletext">All About Fine Jewelry</h1>
 		</div> 
 
-		<div class="menu"> 
-		<ul>
+		
 
-			<li><a href = "https://teamproject-123.github.io/new-website/page2.html">Click here to go to Page 2</a></li>
-			<li><a href = "https://teamproject-123.github.io/new-website/page3.html">Click here to go to Page 3</a></li>
-			<li><a href = "https://teamproject-123.github.io/new-website/page4.html">Click here to go to Page 4</a></li>
-			<li><a href = "https://teamproject-123.github.io/new-website/page5.html">Click here to go to Page 5</a></li>
-			<li><a href = "https://teamproject-123.github.io/new-website/page6.html">Click here to go to Page 6</a></li>
-			<li><a href = "https://teamproject-123.github.io/new-website/index.html">Home Page</a></li>
+		<div class="menu"> 
+		<ul class="menulist">
+
+			<li class = "listelement"><a href = "https://teamproject-123.github.io/new-website/page2.html">Rings</a></li>
+			<br>
+			<li class = "listelement"><a href = "https://teamproject-123.github.io/new-website/page3.html">Necklaces</a></li>
+			<br>
+			<li class = "listelement"><a href = "https://teamproject-123.github.io/new-website/page4.html">Bracelets</a></li>
+			<br>
+			<li class = "listelement"><a href = "https://teamproject-123.github.io/new-website/page5.html">Gold Jewelery</a></li>
+			<br>
+			<li class = "listelement"><a href = "https://teamproject-123.github.io/new-website/page6.html">Silver Jewelery</a></li>
+			<br>
+			<li class = "listelement"><a href = "https://teamproject-123.github.io/new-website/index.html">Home Page</a></li>
+			
 		</ul>
 			
 		</div> 
 
 		<div class="content"> 
-			<p>Welcome to our website. This is the content area.</p>
+			<center><h1>Bracelets</h1></center>
+		
+
+			<center><h3>Welcome to the page about bracelets.</h3></center>
+
+			<p class = "pagetext1">
+				Bracelets are usually made from solid metals, such as gold and silver.
+			</p>
+
+
+			<img src="bracelet.png" class = "pageimage">
+			<center><p><small><b>Photo Credit:</b> https://commons.wikimedia.org/wiki/File:18K_Yellow_Gold_Tennis_Bracelet.jpg</small></p></center>
+
+
+
+			<p class = "pagetext1">
+				Bracelets are commonly worn around the wrist. 
+				Bracelets are highly customizable since they can contain many different types of of gemstones.
+			</p>
+
 			
 		</div>
 		
