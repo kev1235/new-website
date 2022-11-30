@@ -4,6 +4,7 @@
 	<head> 
 		<meta charset = "utf-8">
 		<title>Rings</title>
+		
     
     <style>
 	.title{
@@ -51,7 +52,7 @@
 	}
 	.pageimage{
 		width:70%;
-		display:block;
+		display:inline-block;
 		margin-left:auto;
 		margin-right:auto;
 		
@@ -62,8 +63,28 @@
 		font-size:21px;
 		padding: 10px;
 	}
-
-
+	
+	.small-box{
+		max-width:1080px;
+		margin: auto;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.row{
+		display:flex;
+		align-items: center;
+		flex-wrap:wrap;
+		justify-content: space-around;
+	}
+	.col-1{
+		flex-basis: 25%;
+		padding: 10px;
+		min-width: 200px;
+		margin-bottom: 5px;
+	}
+	.col-1 img{
+		width:65%;
+	}
 	
       
     </style>
@@ -110,12 +131,25 @@
 				The hoop of the ring can be made with gold and silver.
 				The top of the ring will usually contain diamonds or gemstones.
 			</p>
+			<div class = "row">
+				<div class="col-1">
+					<img src="https://user-images.githubusercontent.com/104110809/203516811-233bfdb6-c5eb-4402-8968-79d659c44db4.PNG">
+					<h4> Diamond Rings</h4>
+					<p> 200$ </p>
+				</div>
 
+				<div class="col-1">
+					<img src="https://user-images.githubusercontent.com/104110809/203516811-233bfdb6-c5eb-4402-8968-79d659c44db4.PNG">
+					<h4> Diamond Rings</h4>
+					<p> 200$ </p>
+				</div>
 
-			<img src="https://user-images.githubusercontent.com/104110809/203516811-233bfdb6-c5eb-4402-8968-79d659c44db4.PNG" class = "pageimage">
-			<center><p><small><b>Photo Credit:</b> https://commons.wikimedia.org/wiki/File:Diamond_rings_(28383772499).jpg</small></p></center>
-
-
+				<div class="col-1">
+					<img src="https://user-images.githubusercontent.com/104110809/203516811-233bfdb6-c5eb-4402-8968-79d659c44db4.PNG">
+					<h4> Diamond Rings</h4>
+					<p> 200$ </p>
+				</div>
+			</div>
 			<p class = "pagetext1">
 				Rings are worn for ceremonial and celebration purposes. 
 				Rings are presented during weddings to signify a marriage commitment.
